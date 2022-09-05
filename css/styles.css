@@ -448,11 +448,11 @@ body {
   outline: none;
   width: 100%;
 }
-
-/* .form-icon {
+.form-icon {
   position: relative;
-  
-} */
+    align-items: center;
+}
+
 
 .agree-field {
   display: flex;
