@@ -410,9 +410,9 @@ body {
 
 .modal-icon {
   position: absolute;
-  top: 50%;
+  /* top: 50%; */
   left: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .comment-input:focus,
 .form-input:focus {
@@ -424,13 +424,7 @@ body {
   fill: var(--button-hover-focus);
 }
 
-.form-label {
-  margin-bottom: 5px;
-  text-align: left;
-  font-size: 12px;
-  line-height: 1.16;
-}
-
+.form-label,
 .comment-label {
   margin-bottom: 5px;
   text-align: left;
@@ -448,10 +442,12 @@ body {
   outline: none;
   width: 100%;
 }
+
 .form-icon {
   position: relative;
-    align-items: center;
-}
+  display: flex;
+  align-items: center;
+ }
 
 
 .agree-field {
