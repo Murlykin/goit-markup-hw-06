@@ -442,7 +442,7 @@ justify-content: center;
   align-items: center;
  }
 
-/* .form-icon:hover, */
+.form-input:hover~.modal-icon,
 .form-input:hover,
 .comment-input:hover,
 .agree-label>.icone:hover {
