@@ -286,7 +286,6 @@ body {
   left: 50%;
   width: 528px;
   height: 581px;
-  /* padding: 30px; */
   background-color: var(--body-background-color);
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--timing-functione);
@@ -392,6 +391,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+justify-content: center;
 }
 
 .form-input,
@@ -406,6 +406,7 @@ body {
   box-sizing: border-box;
   outline: none;
   width: 100%;
+    cursor: pointer;
 }
 
 .comment-input {
@@ -416,6 +417,7 @@ body {
 .modal-icon {
   position: absolute;
   left: 10px;
+    cursor: pointer;
 }
 
 .comment-input:focus,
@@ -426,6 +428,7 @@ body {
 
 .form-input:focus~.modal-icon {
   fill: var(--button-hover-focus);
+
 }
 
 .form-label,
@@ -440,6 +443,14 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+ 
+}
+
+.form-icon:hover,
+.form-input:hover,
+.comment-input:hover {
+  border-color: var(--button-hover-focus);
+  fill: var(--button-hover-focus);
 }
 
 .agree-field {
@@ -457,8 +468,7 @@ body {
   align-items: center;
   font-size: 14px;
   line-height: 1.71;
-  margin-left: 8.38px;
-}
+ }
 
 .agree-label>.icone {
   display: inline-block;
@@ -936,12 +946,10 @@ body {
 .subscribe-icone {
   top: 0;
   right: 0;
-  /* transform: translate(-75%, 45%) */
 }
 
 .subskribe-button {
-  position: relative;
-  color: var(--body-background-color);
+  position: relative; color: var(--body-background-color);
   background-color: var(--beckground-color);
   display: inline-block;
   padding: 10px 32px;
