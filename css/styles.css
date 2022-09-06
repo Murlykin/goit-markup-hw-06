@@ -428,7 +428,6 @@ justify-content: center;
 
 .form-input:focus~.modal-icon {
   fill: var(--button-hover-focus);
-
 }
 
 .form-label,
@@ -443,12 +442,12 @@ justify-content: center;
   position: relative;
   display: flex;
   align-items: center;
- 
-}
+ }
 
 .form-icon:hover,
 .form-input:hover,
-.comment-input:hover {
+.comment-input:hover,
+.agree-label>.icone:hover {
   border-color: var(--button-hover-focus);
   fill: var(--button-hover-focus);
 }
@@ -477,7 +476,6 @@ justify-content: center;
   margin-right: 7px;
   border: 1px solid #212121;
   cursor: pointer;
-  /* border-radius: 4px; */
 }
 
 .agree-label~.icone:focus {
