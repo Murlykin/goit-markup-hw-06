@@ -164,11 +164,12 @@ body {
   display: flex;
   align-items: center;
   color: var(--text-color-p);
+  fill: var(--text-color-p);
 }
 
 .nav-icones {
   margin-right: 10px;
-}
+  }
 
 .site-nav:hover,
 .site-nav:focus,
